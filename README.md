@@ -1,74 +1,61 @@
-# Hi there, I'm Edward 👋
+# Edward Oteng
 
-### Software Engineer & AI Evaluation Specialist
-Specialized in building high-performance developer tooling, data validation pipelines, and evaluation harnesses for LLMs and AI annotation workflows.
-
----
-
-### 🛠️ Languages & Technical Stack
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" width="48" height="48" alt="Rust" />
-      <br><strong>Rust</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="48" height="48" alt="Go" />
-      <br><strong>Go</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" />
-      <br><strong>TypeScript</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-      <br><strong>Python</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
-      <br><strong>Docker</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br><strong>Git</strong>
-    </td>
-  </tr>
-</table>
-
-```yaml
-Focus Areas:
-  - Systems Programming & Tooling: Rust, Go
-  - AI Data Quality & Evaluation: Inter-annotator agreement (Cohen's & Fleiss' Kappa), RLHF linting
-  - Full-Stack & API Services: TypeScript, Node.js, Python, REST & Async Workflows
-  - Reliability & Testing: Schema validation, AST parsing, network telemetry
-```
+**Software Engineer | Developer Tooling & AI Evaluation**  
+Focused on high-throughput CLI tools, dataset validation engines, and evaluation infrastructure for machine learning pipelines.
 
 ---
 
-### 🚀 Featured Engineering Projects
+### Core Stack
 
-| Repository | Language | Description | Key Capabilities |
-| :--- | :---: | :--- | :--- |
-| **[RLHFLint](https://github.com/otengedward882-cmd/RLHFLint)** | `Rust` | High-performance RLHF training dataset validator | Zero-copy JSONL streaming, BPE token heuristics, prompt/chosen/rejected validation |
-| **[AnnoScore](https://github.com/otengedward882-cmd/AnnoScore)** | `Go` | Inter-annotator agreement & annotation scoring CLI | Cohen's Kappa, Fleiss' Kappa, multi-rater matrix calculation, CSV/JSON reporting |
-| **[ChatPulse](https://github.com/otengedward882-cmd/ChatPulse)** | `TypeScript` | Asynchronous AI chatbot workflow engine | Multi-stage pipeline execution, network telemetry, prompt latency benchmarking |
-| **[SchemaDrift](https://github.com/otengedward882-cmd/SchemaDrift)** | `Python` | OpenAPI breaking change and schema drift auditor | Semantic diffing, endpoint mutation tracking, CI/CD exit guard |
-| **[VoxCode](https://github.com/otengedward882-cmd/VoxCode)** | `Python` | Voice-to-code transcription and syntax injector | Acoustic command recognition, hotkey dispatching, AST syntax verification |
-| **[xtree](https://github.com/otengedward882-cmd/xtree)** | `Python` | Directory hierarchy inspector and code summarizer | Gitignore awareness, file type distribution analysis, markdown export |
+[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/otengedward882-cmd/RLHFLint)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/otengedward882-cmd/AnnoScore)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/otengedward882-cmd/ChatPulse)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/otengedward882-cmd/SchemaDrift)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
 
 ---
 
-### 📊 GitHub Overview & Language Distribution
+### Featured Work
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=otengedward882-cmd&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=otengedward882-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
+#### [RLHFLint](https://github.com/otengedward882-cmd/RLHFLint) &middot; `Rust`
+High-performance linter and validator for RLHF (Reinforcement Learning from Human Feedback) datasets.
+* **Capabilities:** Streaming line-by-line JSONL verification, pairwise `chosen` vs. `rejected` similarity checks, BPE token length calculation, and duplicate prompt detection.
+* **Performance:** Zero-copy parser designed to validate multi-gigabyte training corpora with minimal memory footprint.
+
+#### [AnnoScore](https://github.com/otengedward882-cmd/AnnoScore) &middot; `Go`
+Inter-annotator agreement scoring engine for human-in-the-loop AI annotation workflows.
+* **Capabilities:** Computes Cohen's Kappa (two-rater), Fleiss' Kappa (multi-rater fixed panel), and observed raw agreement rates.
+* **Output:** Generates confusion matrices, annotator discrepancy breakdowns, and structured reports in JSON and tabular formats.
+
+#### [ChatPulse](https://github.com/otengedward882-cmd/ChatPulse) &middot; `TypeScript`
+Evaluation harness and telemetry test runner for conversational AI endpoints and workflows.
+* **Capabilities:** Multi-turn conversation simulation, response latency benchmarking, token throughput tracking, and payload schema assertion.
+* **Design:** Modular pipeline runner built for integration into continuous integration testing workflows.
+
+#### [SchemaDrift](https://github.com/otengedward882-cmd/SchemaDrift) &middot; `Python`
+Automated breaking change detector and drift auditor for OpenAPI and JSON Schema specifications.
+* **Capabilities:** AST-level diffing between API versions, backward-incompatible change classification, and CI pipeline exit gating.
+
+#### [VoxCode](https://github.com/otengedward882-cmd/VoxCode) &middot; `Python`
+Lightweight developer utility translating voice input into syntactically validated code structures.
+* **Capabilities:** Real-time speech recognition, grammar template dispatching, and AST-level syntax checks before editor insertion.
+
+#### [xtree](https://github.com/otengedward882-cmd/xtree) &middot; `Python`
+Fast directory inspector with language distribution breakdown, file-size profiling, and `.gitignore` awareness.
 
 ---
 
-<p align="center">
-  <i>Open to remote opportunities in Software Engineering, AI Data Evaluation, and Developer Tooling.</i>
+### Technical Focus Areas
+
+* **Data Quality & LLM Evaluation:** Statistical agreement metrics (Cohen's & Fleiss' Kappa), prompt-response validation, and dataset hygiene.
+* **Systems & Tooling:** High-efficiency CLI utilities, zero-copy parsing, and memory-conscious data pipelines.
+* **API Reliability:** Contract validation, schema drift prevention, and deterministic test harnesses.
+
+---
+
+<p align="left">
+  <a href="mailto:otengedward882@gmail.com">
+    <img src="https://img.shields.io/badge/Email-otengedward882%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
