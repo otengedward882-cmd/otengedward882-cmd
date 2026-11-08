@@ -113,7 +113,7 @@
 ### 📊 GitHub Activity & Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=otengedward882-cmd&theme=tokyonight&hide_border=true&border_radius=8&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=otengedward882-cmd&theme=tokyonight&hide_border=true&border_radius=8&date_format=M%20j%5B%2C%20Y%5D&timezone=Africa%2FAccra" alt="GitHub Streak" />
 </div>
 
 ---
