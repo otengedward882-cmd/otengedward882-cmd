@@ -11,7 +11,7 @@
 
   <p align="center">
     <a href="mailto:otengedward882@gmail.com"><img src="https://img.shields.io/badge/Email-otengedward882%40gmail.com-0284c7?style=flat-square&logo=gmail&logoColor=white" /></a>
-    <img src="https://img.shields.io/badge/Location-Accra%2C%20Ghana-1e293b?style=flat-square&logo=googlemaps&logoColor=white" />
+    <img src="https://img.shields.io/badge/-1e293b?style=flat-square&logo=googlemaps&logoColor=white" />
     <img src="https://img.shields.io/badge/Status-Open%20for%20Opportunities-059669?style=flat-square" />
   </p>
 </div>
